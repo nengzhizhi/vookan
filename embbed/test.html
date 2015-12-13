@@ -1,0 +1,16 @@
+<script src="./js/swfobject.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var f = "11.1.0", e = {}, h = {}, g = {};
+	g.allowScriptAccess = "always";
+	g.allowfullscreen = "true";
+	g.allowFullScreenInteractive = "true";
+	swfobject.embedSWF("RtmpPlayer.swf", "videoPlayer", "100%", "100%", f, "", e, h, g);
+
+	function as_console_log(message){
+		console.log(message);
+	}
+</script>
+
+<div style="width:1276px; height: 717px;">
+	<div class="videoPlayer" id="videoPlayer"></div>
+</div>
